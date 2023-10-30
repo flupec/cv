@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" content="UTF-8">
+    <title>HTML CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+
+<body>
+    <!-- Header cv -->
+    <div class="header-cv">
+        <div class="fullname-header">
+            <h1>Автаев Василий Васильевич</h1>
+        </div>
+        <div class="professional-name-header">
+            <b>Backend software developer</b>
+        </div>
+        <div class="grid-contacts">
+            <div class="contacts">Email: <a href="mailto:avtaev.vasily.v@gmail.com">avtaev.vasily.v@gmail.com</a></div>
+            <div class="socials">Telegram: <a href="t.me/hellisurhome">hellisurhome</a></div>
+        </div>
+    </div>
+    <!-- Education -->
+
+    <div class="education">
+        <!-- Master -->
+        <h2>Образование</h2>
+        <div class="grid-experience">
+            <div class="company">Самарский университет</div>
+            <div class="degree">Магистр (незаконченное, не защищал диплом)</div>
+            <div class="date">Август 2020 - Февраль 2023</div>
+        </div>
+        
+        <p class="introduction">
+            Факультет информатики. Прикладная математика и информатика.
+            Разработка интелектуальных систем. 
+        </p>
+
+        <!-- Bachelor -->
+        <div class = "grid-experience">
+            <div class="company">Самарский университет</div>
+            <div class="degree">Бакалавриат</div>
+            <div class="date">Август 2016 - Август 2020</div>
+        </div>
+        <p class="introduction">Факультет информатики. Прикладные математика и физика.</p>
+    </div>
+    <!-- Experience CV -->
+    <h2>Опыт работы</h2>
+    <!-- Skytec games -->
+    <div class = "grid-experience">
+        <div class="company">Skytec games</div>
+        <div class="degree">Backend software developer</div>
+        <div class="date">Ноябрь 2022 - наст. вр.</div>
+    </div>
+    <div class="container-body-list">
+        <p>Обязанности</p>
+        <ul>
+            <li>Разработка и поддержка серверной части мобильной ККИ</li>
+            <li>Реализация игровой логики согласно ТЗ от геймдизайнеров</li>
+            <li>Проектирование, разработка и поддержка системы обобщенного трекинга игровых активностей пользователя</li>
+            <li>Поддержка прочих инфраструктурных компонентов</li>
+        </ul>
+        <p>Используемые технологии</p>
+        <ul>
+            <li>Java (Spring, Spring reactive)</li>
+            <li>MariaDB, ClickHouse, Nginx, Kafka</li>
+        </ul>
+    <!-- Netcracker  -->
+    <div class = "grid-experience">
+        <div class="company">Netcracker technology</div>
+        <div class="degree">Инженер-программист</div>
+        <div class="date">Октябрь 2019 - Октябрь 2022</div>
+    </div>
+    <div class="container-body-list">
+        <p>Обязанности</p>
+        <ul>
+            <li>Поддержка сервиса-конфигуратора для API gateway</li>
+            <li>Разработка и поддержка библиотек, решающих задачи взаимодействия и конфигурации микросервисов в рамках PaaS решения</li>
+            <li>Автоматизация деплой процесса и написание автоматизированных тестов, выполняющихся в облачной среде</li>
+            <li>Поддержка микросервисов</li>
+        </ul>
+        <p>Используемые технологии</p>
+        <ul>
+            <li>Java (Spring, Quarkus), Golang (grpc-go, mux, fiber, kubernetes-go)</li>
+            <li>Envoy, RabbitMQ, Spring Cloud Config Server, Consul</li>
+            <li>PostgreSQL, H2</li>
+            <li>Kubernetes, Openshift</li>
+        </ul>
+
+    <!-- Hard skills -->
+    <div class="key">
+        <h2>Технические навыки</h2>
+        <ul>
+            <li>Языки программирования: <b id="skills">Java, Golang, Python3, Bash</b></li>
+            <li>Протоколы: <b id="skills">HTTP, WebSocket, gRPC</b></li>
+            <li>СУБД: <b id="skills">PostgreSQL, MariaDB, ClickHouse</b></li>
+            <li>Брокеры сообщений: <b id="skills">Kafka</b></li>
+            <li>Различное: <b id="skills">Linux, Git, Docker (Podman)</b></li>
+        </ul>
+    </div>
+</body>
