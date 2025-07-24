@@ -3,10 +3,13 @@
 
 @page { size: auto;  margin: 0; }
 @media print {
-body{
-    size: A4;
-    /* change the margins as you want them to be. */
-} 
+    .page-break {
+        page-break-after: always;
+    }
+    body{
+        size: A4;
+        /* change the margins as you want them to be. */
+    } 
 }
 html {
     margin-top: 0.5cm;
@@ -72,7 +75,7 @@ h3 {
     grid-row: 1;
     grid-column: 1;
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
 }
 .date {
     grid-row: 2;
@@ -83,10 +86,14 @@ h3 {
     font-style: italic;
 }
 .degree {
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     grid-row: 2;
     grid-column: 1;
+}
+.section {
+    font-weight: 500;
+    text-align: left;
 }
 .description {
     padding: 0%;
